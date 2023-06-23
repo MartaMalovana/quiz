@@ -9,6 +9,8 @@ export default function Stats({ totalAnsw, correctAnsw, time, totalQuizPlayed })
 
     const getSec = () => Math.round(time / 1000) % 60;
 
+    const wrongAnsw = totalAnsw - correctAnsw;
+
     ChartJS.register(ArcElement, Tooltip, Legend);
 
     ChartJS.defaults.color = 'yellow';
@@ -18,7 +20,7 @@ export default function Stats({ totalAnsw, correctAnsw, time, totalQuizPlayed })
         datasets: [
             {
                 label: 'answers',
-                data: [correctAnsw, totalAnsw],
+                data: [correctAnsw, wrongAnsw],
                 backgroundColor: ['rgba(75, 192, 192, 0.9)', 'rgba(255, 99, 132, 0.9)'],
                 borderColor: 'yellow',
             }
