@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "General Knowledge",
+    "questions": "5",
+    "url": "amount=5&category=9",
+    "image": "1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Science and Nature",
+    "questions": "5",
+    "url": "amount=5&category=17",
+    "image": "2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Geography",
+    "questions": "5",
+    "url": "amount=5&category=22",
+    "image": "3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Animals",
+    "questions": "5",
+    "url": "amount=5&category=27",
+    "image": "4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Vehicles",
+    "questions": "5",
+    "url": "amount=5&category=28",
+    "image": "5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Art",
+    "questions": "5",
+    "url": "amount=5&category=25",
+    "image": "6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "History",
+    "questions": "5",
+    "url": "amount=5&category=23",
+    "image": "7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Film",
+    "questions": "5",
+    "url": "amount=5&category=11",
+    "image": "8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Music",
+    "questions": "5",
+    "url": "amount=5&category=12",
+    "image": "9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Sports",
+    "questions": "5",
+    "url": "amount=5&category=21",
+    "image": "10.jpg"
+  }
+]
